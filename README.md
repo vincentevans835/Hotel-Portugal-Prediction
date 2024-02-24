@@ -7,18 +7,18 @@ Namun setelah pemesanan banyak pelanggan yang tiba-tiba mengcancel pesanannya.
 Maka dalam kesempatan ini saya akan mencoba membuat sistem yang dapat memprediksi pelanggan mana yang akan cancel menggunakan machine learning
 
 ## Kolom yang digunakan sebagai Feature
-1.hotel
-2.lead_time
-3.country
-4.market_segment
-5.customer_type
-6.days_in_waiting_list
-7.booking_changes
-8.previous_cancellations
-9.previous_bookings_not_canceled
-10.is_repeated_guest
+1.hotel  
+2.lead_time  
+3.country  
+4.market_segment  
+5.customer_type  
+6.days_in_waiting_list  
+7.booking_changes  
+8.previous_cancellations  
+9.previous_bookings_not_canceled  
+10.is_repeated_guest  
 
-Dengan Target kolom adalah **is_canceled** sebagai y
+Dengan Target kolom adalah **is_canceled** sebagai y  
 
 ## Preprocess
 1. One Hot Encoding ,Kolom = Hotel
