@@ -26,7 +26,7 @@ Dengan Target kolom adalah **is_canceled** sebagai y
 3. Robust Scaler, Kolom = lead_time,days_in_waiting_list,booking_changes,previous_cancellations,previous_bookings_not_canceled
 4. Oversampling, Menggunakan SMOTE
 
-## Machine Learning Algoritma
+## Algoritma Machine Learning
 1. logistic regressi
 2. KNN
 3. Decision Tree
