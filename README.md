@@ -1,12 +1,12 @@
-## Latar Belakang
-Portugal merupakan salah satu negara yang terletak di ujung barat daya Eropa. Banyak wisatawan yang berkunjung ke portugal untuk berlibur,  
-tapi ada juga yang berkunjung untuk urusan bisnis atau yang lain nya. Selama berkunjung pelanggan akan menginap di hotel.  
-Karena banyak nya pengunjung yang memesan hotel, maka banyak pengunjung yang memesan hotel dari jauh hari. 
-Namun setelah pemesanan banyak pelanggan yang tiba-tiba mengcancel pesanannya.  
+## Background
+Portugal is a country located at the southwest tip of Europe. Many tourists visit Portugal for vacation,
+but there are also those who visit for business or other reasons. During the visit, customers will stay at the hotel.
+Because many visitors book hotels, many visitors book hotels well in advance.
+However, after ordering, many customers suddenly canceled their orders.
 
-Maka dalam kesempatan ini saya akan mencoba membuat sistem yang dapat memprediksi pelanggan mana yang akan cancel menggunakan machine learning
+So on this occasion I will try to create a system that can predict which customers will cancel using machine learning
 
-## Kolom yang digunakan sebagai Feature
+## The Feature
 1.hotel  
 2.lead_time  
 3.country  
@@ -18,16 +18,16 @@ Maka dalam kesempatan ini saya akan mencoba membuat sistem yang dapat memprediks
 9.previous_bookings_not_canceled  
 10.is_repeated_guest  
 
-Dengan Target kolom adalah **is_canceled** sebagai y  
+The target column is **is_canceled** 
 
 ## Preprocess
-1. One Hot Encoding ,Kolom = Hotel
-2. Binary Encoding, Kolom = country,market_segment,customer_type
-3. Robust Scaler, Kolom = lead_time,days_in_waiting_list,booking_changes,previous_cancellations,previous_bookings_not_canceled
-4. Oversampling, Menggunakan SMOTE
+1. One Hot Encoding ,Column = Hotel
+2. Binary Encoding, Column = country,market_segment,customer_type
+3. Robust Scaler, Column = lead_time,days_in_waiting_list,booking_changes,previous_cancellations,previous_bookings_not_canceled
+4. Oversampling, Use SMOTE
 
-## Algoritma Machine Learning
-1. logistic regressi
+## Machine Learning Algorithm
+1. Logistic Regression
 2. KNN
 3. Decision Tree
 4. Random Forest
